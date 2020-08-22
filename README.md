@@ -1,10 +1,9 @@
 # Docker-Seq-Setup
 
 <h1>How to setup Docker to run Seq for Serilog logging</h1>
-<br />
 <h2>Requirements</h2>
 <ul>
-  <li><a href="https://docs.docker.com/docker-for-windows/install/">Docker (Windows)</a>. Be sure to download download 'WSL2' during installation. If you don't you may run into issues when attempting to run Docker after installation.</li>
+  <li><a href="https://docs.docker.com/docker-for-windows/install/">Docker (Windows)</a>. Be sure to keep the 'WSL2' option ticked during installation. If you don't, you may run into issues when attempting to run Docker after installation which will require you to Powershell and enabling a Hyper-V service using a specific command (or by manually turning it on via the Windows Interface).</li>
 </ul>
 <br />
 <p>Next, go to <a href="https://hub.docker.com/r/datalust/seq">this source</a> and open up CMD.</p>
