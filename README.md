@@ -13,6 +13,7 @@
 <p>Now, open up the Docker application. You should see a dedicated tab for 'seq' running on Port 7000 (note: the port can be to your liking). Click on the respective tab. You should now see a CMD terminal which details the current run-time status of the seq service. You can also inspect the system utilisation of the service itself which is pretty neat (this can be changed in the Docker app itself).</p>
 <p>Open up your browser of choice and go to 'localhost:7000'. It should open a locally hosted instance of seq. This will be important in liking ASP.NET Core Serilog to your application for logging.</p>
 <p>Much like XAMPP, if you close out of Docker entirely and try to browse localhost:7000 again, you will get nothing. So don't close it unless intentional.</p>
+<p><b>By taking the Docker approach, we don't need to install the Seq onto our system, allowing us to minimise the amount of software on the (eventually) dedicated system.</b></p>
 <br />
 <h2>Self Notes</h2>
 <p>Docker is essentially XAMPP/WAMP/LAMP, except that it contains a lot more useful features and is not restricted to serving PHP and MySQL related applications (phpmyadmin).</p>
