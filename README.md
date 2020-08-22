@@ -15,6 +15,6 @@
 <p><b>By taking the Docker approach, we don't need to install the Seq onto our system, allowing us to minimise the amount of software on the (eventually) dedicated system.</b></p>
 <br />
 <h2>Self Notes</h2>
-<p>Docker is essentially XAMPP/WAMP/LAMP, except that it contains a lot more useful features and is not restricted to serving PHP and MySQL related applications (phpmyadmin).</p>
+<p>Docker is essentially XAMPP/WAMP/LAMP, except that it contains a lot more useful features and is not restricted to serving just Apache/PHP and MySQL related applications (phpmyadmin).</p>
 <p>It is also fairly customisable in that you can specify how much dedicated system resources you want to allocate to the Docker program.</p>
 <p>The locally hosted version of seq is not all that useful. For seq to be really effective, you will need to setup a dedicated system to monitor the logs (i.e. a VM or if possible, a physical machine).</p>
